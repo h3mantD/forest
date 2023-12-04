@@ -10,7 +10,7 @@
     ```
 2. Copy build file into /usr/bin
     ```bash
-    sudo cp forest/build/forest /usr/bin/forest
+    sudo cp forest/builds/forest /usr/bin/forest
     ```
 
 # Command Details
