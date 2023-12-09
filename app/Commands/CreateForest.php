@@ -62,7 +62,7 @@ final class CreateForest extends Command
                     File::makeDirectory($directoryPath, 0, true);
                 }
 
-                if ($fileDetails['contents']) {
+                if ($fileDetails['contents'] ?? false) {
                     $this->createForest($fileDetails['contents'], $directoryPath);
                 }
             }
